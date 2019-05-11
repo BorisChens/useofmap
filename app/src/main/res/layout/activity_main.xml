@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="求助者姓名:张三"
+            android:textColor="@color/colororange"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="求助者年龄:65岁"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colororange"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="求助者描述:患有高血压，心脏病"
+            android:textColor="@color/colororange"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您距离求助者还有: 1.2km"
+            android:textColor="@color/colororange"/>
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/baidumap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </com.baidu.mapapi.map.MapView>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

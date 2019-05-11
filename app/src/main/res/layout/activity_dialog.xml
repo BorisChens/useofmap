@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="求助人姓名:张三"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="@color/colororange"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="求助人年龄:65岁"
+
+            android:gravity="center"
+            android:textColor="@color/colororange"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="求助人描述:患有高血压，心脏病"
+            android:gravity="center"
+            android:layout_marginLeft="42dp"
+            android:textColor="@color/colororange"/>
+    </LinearLayout>
+
+</RelativeLayout>
